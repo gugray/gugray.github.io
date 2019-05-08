@@ -60,13 +60,19 @@
   <script>
     var hanziLookupDemoApp = (function () {
       var _drawingBoard;
+      var _worker;
 
       $(document).ready(function () {
-        wasm_bindgen(`hanzi_lookup_bg.wasm`)
-          .then(() => {
-            initApp();
-          });
+        _worker = new Worker('worker.js');
+        _worker.onmessage = onWorkerMessage;
+        _worker.postMessage({ wasm_uri: 'hanzi_lookup_bg.wasm' });
       });
+
+      function onWorkerMessage(e) {
+        if (!e.data.what) return;
+        if (e.data.what == "loaded") initApp();
+        else if (e.data.what == "lookup") showResults(e.data.matches);
+      }
 
       // Initializes mini-app once all scripts have loaded
       function initApp() {
@@ -89,13 +95,13 @@
       // Fetches hand-drawn input from drawing board and looks up Hanzi
       function lookup() {
         const strokes = _drawingBoard.cloneStrokes();
-        const json = wasm_bindgen.lookup(strokes, 8);
-        const matches = JSON.parse(json);
-        showResults($(".mmahLookupChars"), matches);
+        _worker.postMessage({ strokes: strokes, limit: 8 });
+        showResults(matches);
       }
 
       // Populates UI with (ordered) Hanzi matches
-      function showResults(elmHost, matches) {
+      function showResults(matches) {
+        var elmHost = $(".mmahLookupChars");
         elmHost.html("");
         for (var i = 0; i != matches.length; ++i) {
           elmHost.append("<span>" + matches[i].hanzi + "</span>");
