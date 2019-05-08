@@ -51,6 +51,9 @@
       <h1>Recognized characters</h1>
       <h2>Make Me a Hanzi data</h2>
       <div class="charPicker mmahLookupChars"></div>
+      <div class="diagnostics">
+        Elapsed: <span class="lookupTimer lookupTimerHL">--</span>
+      </div>
     </div>  
   </div>
 
@@ -61,6 +64,7 @@
     var hanziLookupDemoApp = (function () {
       var _drawingBoard;
       var _worker;
+      var _start;
 
       $(document).ready(function () {
         _worker = new Worker('worker.js');
@@ -95,6 +99,7 @@
       // Fetches hand-drawn input from drawing board and looks up Hanzi
       function lookup() {
         const strokes = _drawingBoard.cloneStrokes();
+        _start = new Date().getTime();
         _worker.postMessage({ strokes: strokes, limit: 8 });
         showResults(matches);
       }
@@ -102,6 +107,8 @@
       // Populates UI with (ordered) Hanzi matches
       function showResults(matches) {
         var elmHost = $(".mmahLookupChars");
+        var elapsed = new Date().getTime() - _start;
+        $(".lookupTimerHL").text(elapsed + "ms");
         elmHost.html("");
         for (var i = 0; i != matches.length; ++i) {
           elmHost.append("<span>" + matches[i].hanzi + "</span>");
