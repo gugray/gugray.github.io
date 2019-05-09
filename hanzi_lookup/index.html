@@ -32,6 +32,11 @@
     }
     .charPicker span { cursor: default; }
     .hanziLookupChars { margin-bottom: 20px; }
+    @media (max-width: 800px) {
+      .content, .header { width: 100%; box-sizing: border-box; }
+      .colLeft, .colRight { width: 100%; float: left; clear: both; padding-left: 0; }
+      .commands { float: left; clear: both; }
+    }
   </style>
 </head>
 <body>
