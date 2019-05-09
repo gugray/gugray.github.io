@@ -25,12 +25,13 @@
     .cmd { width: 122px; background-color: #fce7c0; text-align: center; cursor: default; padding: 3px; color: #606060; }
     .cmd.cmdUndo { float: right; }
     .cmd:hover { background-color: #f1d7a6; }
-    .charPicker { 
+    .charPicker {
+      font-family: SimHei, "Microsoft Yahei", STXihei, STHeitiSC-Medium, DengXian, sans-serif;
       border: 1px solid #a0a0a0; padding: 3px; height: 70px; width: 400px; font-size: 48px; background-color: #fafafa; overflow: hidden; 
       color: #606060;
     }
     .charPicker span { cursor: default; }
-    .hanziLookupChars { margin-bottom: 20px; }
+    .diagMMAH { margin-bottom: 20px; }
   </style>
 </head>
 <body>
@@ -49,10 +50,13 @@
     </div>
     <div class="colRight">
       <h1>Recognized characters</h1>
-      <h2>Original HanziLookup data</h2>
-      <div class="charPicker hanziLookupChars"></div>
       <h2>Make Me a Hanzi data</h2>
       <div class="charPicker mmahLookupChars"></div>
+      <div class="diagnostics diagMMAH">Elapsed: <span class="lookupTimer lookupTimerMMAH">--</span></div>
+      <h2>Original HanziLookup data</h2>
+      <div id="cbHL"><input type="checkbox" /><label>Include for comparison</label></div>
+      <div class="charPicker hanziLookupChars"></div>
+      <div class="diagnostics diagHL">Elapsed: <span class="lookupTimer lookupTimerHL">--</span></div>
     </div>  
   </div>
 
@@ -62,6 +66,7 @@
     var hanziLookupDemoApp = (function () {
       var _filesToLoad;
       var _drawingBoard;
+      var _start;
 
       $(document).ready(function () {
         // Only fetch data (large, takes long) when the page has loaded
@@ -94,20 +99,38 @@
           _drawingBoard.redraw();
           lookup();
         });
+        // Set up option for original HL lookup
+        $("#cbHL label").click(function (evt) {
+          var newChecked = !$("#cbHL input").prop("checked");
+          $("#cbHL input").prop("checked", newChecked);
+        });
+        $("#cbHL input").change(function () {
+          var checked = $("#cbHL input").prop("checked");
+          if (!checked) $(".hanziLookupChars").html("");
+          $(".lookupTimerHL").text("--");
+        });
       }
 
       // Fetches hand-drawn input from drawing board and looks up Hanzi
       function lookup() {
+        var strokes = _drawingBoard.cloneStrokes();
+        _start = new Date().getTime();
         // Decompose character from drawing board
-        var analyzedChar = new HanziLookup.AnalyzedCharacter(_drawingBoard.cloneStrokes());
+        var analyzedChar = new HanziLookup.AnalyzedCharacter(strokes);
         // Look up with original HanziLookup data
+        if ($("#cbHL input").prop("checked")) {
         var matcherOrig = new HanziLookup.Matcher("orig");
-        matcherOrig.match(analyzedChar, 8, function(matches) {
-          showResults($(".hanziLookupChars"), matches);
-        });
+          matcherOrig.match(analyzedChar, 8, function(matches) {
+            var elapsed = new Date().getTime() - _start;
+            $(".lookupTimerHL").text(elapsed + "ms");
+            showResults($(".hanziLookupChars"), matches);
+          });
+        }
         // Look up with MMAH data
         var matcherMMAH = new HanziLookup.Matcher("mmah");
         matcherMMAH.match(analyzedChar, 8, function(matches) {
+          var elapsed = new Date().getTime() - _start;
+          $(".lookupTimerMMAH").text(elapsed + "ms");
           showResults($(".mmahLookupChars"), matches);
         });
       }
