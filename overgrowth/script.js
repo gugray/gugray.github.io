@@ -20,7 +20,7 @@
     const elmCanvas = document.getElementById("paper-canvas");
     elmCanvas.width = w;
     elmCanvas.height = h;
-    const pxWidth = elmDrawing.clientWidth;
+    const pxWidth = elmDrawing.clientWidth - 1;
     elmCanvas.style.width = pxWidth + "px";
     elmCanvas.style.height = pxWidth * h / w + "px";
   }
