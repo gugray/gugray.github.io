@@ -1,0 +1,15 @@
+html { font-family: sans-serif; background-color:  #f8f8f8; }
+* { box-sizing: border-box; margin: 0; border: 0; padding: 0; }
+.centrer { display: flex; width: 100%; }
+.side { flex-grow: 1; }
+.mid { width: 600px; }
+
+#drawing, #info {
+  position: relative; margin-bottom: 20px;
+  border: 1px solid rgb(105, 105, 105); background-color: #f8f8f8;
+}
+#info { padding: 5px; font-family: Consolas, monospace; font-size: 14px; margin-bottom: 0; }
+#info label { white-space: pre; }
+#drawing svg { display: block; background-color: white; }
+#drawing canvas { display: block;  background-color: white; width: 100%; }
+#download { display: block; position: absolute; top: 5px; right: 5px; text-decoration: none; }
