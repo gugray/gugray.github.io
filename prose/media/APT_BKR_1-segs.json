@@ -47,7 +47,7 @@
         }
       ],
       "paraIx": 0,
-      "isTitleLine": true,
+      "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
     },
@@ -127,29 +127,9 @@
         }
       ],
       "paraIx": 1,
-      "isTitleLine": true,
-      "isVerse": false,
-      "isEmptyLine": false
-    },
-    {
-      "startSec": 8.90,
-      "lengthSec": 0.0,
-      "words": [
-        {
-          "startSec": 8.90,
-          "lengthSec": 0.0,
-          "glueLeft": false,
-          "lead": "",
-          "text": "",
-          "lemma": "",
-          "trail": "",
-          "entries": []
-        }
-      ],
-      "paraIx": 2,
       "isTitleLine": false,
       "isVerse": false,
-      "isEmptyLine": true
+      "isEmptyLine": false
     },
     {
       "startSec": 9.29,
@@ -166,7 +146,7 @@
           "entries": []
         }
       ],
-      "paraIx": 3,
+      "paraIx": 2,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -302,7 +282,7 @@
           "entries": []
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -610,7 +590,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -740,7 +720,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -810,7 +790,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -1180,7 +1160,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -1274,7 +1254,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -1410,7 +1390,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -1480,7 +1460,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -1800,7 +1780,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -1942,7 +1922,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -2024,7 +2004,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -2106,7 +2086,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -2424,7 +2404,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -2528,7 +2508,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -2634,7 +2614,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -2824,7 +2804,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -3172,7 +3152,7 @@
           "entries": []
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -3230,7 +3210,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -3312,7 +3292,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -3498,7 +3478,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -3628,7 +3608,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -3746,7 +3726,7 @@
           ]
         }
       ],
-      "paraIx": 4,
+      "paraIx": 3,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -3922,7 +3902,7 @@
           ]
         }
       ],
-      "paraIx": 5,
+      "paraIx": 4,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -4146,7 +4126,7 @@
           ]
         }
       ],
-      "paraIx": 5,
+      "paraIx": 4,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -4358,7 +4338,7 @@
           ]
         }
       ],
-      "paraIx": 5,
+      "paraIx": 4,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -4439,7 +4419,7 @@
           ]
         }
       ],
-      "paraIx": 6,
+      "paraIx": 5,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -4699,7 +4679,7 @@
           ]
         }
       ],
-      "paraIx": 6,
+      "paraIx": 5,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -4937,7 +4917,7 @@
           ]
         }
       ],
-      "paraIx": 7,
+      "paraIx": 6,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -5151,7 +5131,7 @@
           ]
         }
       ],
-      "paraIx": 7,
+      "paraIx": 6,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -5341,7 +5321,7 @@
           ]
         }
       ],
-      "paraIx": 7,
+      "paraIx": 6,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -5639,7 +5619,7 @@
           ]
         }
       ],
-      "paraIx": 7,
+      "paraIx": 6,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -6065,7 +6045,7 @@
           ]
         }
       ],
-      "paraIx": 7,
+      "paraIx": 6,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -6217,7 +6197,7 @@
           ]
         }
       ],
-      "paraIx": 8,
+      "paraIx": 7,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -6575,7 +6555,7 @@
           ]
         }
       ],
-      "paraIx": 8,
+      "paraIx": 7,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -6681,7 +6661,7 @@
           ]
         }
       ],
-      "paraIx": 8,
+      "paraIx": 7,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -6763,7 +6743,7 @@
           ]
         }
       ],
-      "paraIx": 8,
+      "paraIx": 7,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -6981,7 +6961,7 @@
           "entries": []
         }
       ],
-      "paraIx": 9,
+      "paraIx": 8,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -7253,7 +7233,7 @@
           ]
         }
       ],
-      "paraIx": 9,
+      "paraIx": 8,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -7311,7 +7291,7 @@
           ]
         }
       ],
-      "paraIx": 9,
+      "paraIx": 8,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -7429,7 +7409,7 @@
           ]
         }
       ],
-      "paraIx": 9,
+      "paraIx": 8,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -7523,7 +7503,7 @@
           ]
         }
       ],
-      "paraIx": 9,
+      "paraIx": 8,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -8004,7 +7984,7 @@
           "entries": []
         }
       ],
-      "paraIx": 9,
+      "paraIx": 8,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -8190,7 +8170,7 @@
           ]
         }
       ],
-      "paraIx": 10,
+      "paraIx": 9,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -8564,7 +8544,7 @@
           ]
         }
       ],
-      "paraIx": 10,
+      "paraIx": 9,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -8725,7 +8705,7 @@
           ]
         }
       ],
-      "paraIx": 11,
+      "paraIx": 10,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -8781,7 +8761,7 @@
           ]
         }
       ],
-      "paraIx": 12,
+      "paraIx": 11,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -8845,7 +8825,7 @@
           "entries": []
         }
       ],
-      "paraIx": 13,
+      "paraIx": 12,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -8985,7 +8965,7 @@
           ]
         }
       ],
-      "paraIx": 13,
+      "paraIx": 12,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -9155,7 +9135,7 @@
           ]
         }
       ],
-      "paraIx": 14,
+      "paraIx": 13,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -9383,7 +9363,7 @@
           "entries": []
         }
       ],
-      "paraIx": 15,
+      "paraIx": 14,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -9595,7 +9575,7 @@
           ]
         }
       ],
-      "paraIx": 15,
+      "paraIx": 14,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -9813,7 +9793,7 @@
           ]
         }
       ],
-      "paraIx": 16,
+      "paraIx": 15,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -9951,7 +9931,7 @@
           ]
         }
       ],
-      "paraIx": 17,
+      "paraIx": 16,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10189,7 +10169,7 @@
           ]
         }
       ],
-      "paraIx": 17,
+      "paraIx": 16,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10233,7 +10213,7 @@
           ]
         }
       ],
-      "paraIx": 18,
+      "paraIx": 17,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10292,7 +10272,7 @@
           ]
         }
       ],
-      "paraIx": 18,
+      "paraIx": 17,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10398,7 +10378,7 @@
           "entries": []
         }
       ],
-      "paraIx": 19,
+      "paraIx": 18,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10442,7 +10422,7 @@
           ]
         }
       ],
-      "paraIx": 20,
+      "paraIx": 19,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10476,7 +10456,7 @@
           ]
         }
       ],
-      "paraIx": 20,
+      "paraIx": 19,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10554,7 +10534,7 @@
           ]
         }
       ],
-      "paraIx": 21,
+      "paraIx": 20,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10636,7 +10616,7 @@
           ]
         }
       ],
-      "paraIx": 21,
+      "paraIx": 20,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10694,7 +10674,7 @@
           ]
         }
       ],
-      "paraIx": 21,
+      "paraIx": 20,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10748,7 +10728,7 @@
           "entries": []
         }
       ],
-      "paraIx": 22,
+      "paraIx": 21,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -10778,7 +10758,7 @@
           "entries": []
         }
       ],
-      "paraIx": 23,
+      "paraIx": 22,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -11040,7 +11020,7 @@
           ]
         }
       ],
-      "paraIx": 23,
+      "paraIx": 22,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -11166,7 +11146,7 @@
           ]
         }
       ],
-      "paraIx": 24,
+      "paraIx": 23,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -11246,7 +11226,7 @@
           ]
         }
       ],
-      "paraIx": 25,
+      "paraIx": 24,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -11506,7 +11486,7 @@
           ]
         }
       ],
-      "paraIx": 25,
+      "paraIx": 24,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -11732,7 +11712,7 @@
           ]
         }
       ],
-      "paraIx": 25,
+      "paraIx": 24,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -11872,7 +11852,7 @@
           ]
         }
       ],
-      "paraIx": 26,
+      "paraIx": 25,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -11952,7 +11932,7 @@
           ]
         }
       ],
-      "paraIx": 27,
+      "paraIx": 26,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12032,7 +12012,7 @@
           ]
         }
       ],
-      "paraIx": 27,
+      "paraIx": 26,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12064,7 +12044,7 @@
           ]
         }
       ],
-      "paraIx": 28,
+      "paraIx": 27,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12182,7 +12162,7 @@
           ]
         }
       ],
-      "paraIx": 28,
+      "paraIx": 27,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12216,7 +12196,7 @@
           ]
         }
       ],
-      "paraIx": 28,
+      "paraIx": 27,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12274,7 +12254,7 @@
           ]
         }
       ],
-      "paraIx": 28,
+      "paraIx": 27,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12308,7 +12288,7 @@
           ]
         }
       ],
-      "paraIx": 28,
+      "paraIx": 27,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12352,7 +12332,7 @@
           ]
         }
       ],
-      "paraIx": 29,
+      "paraIx": 28,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12458,7 +12438,7 @@
           ]
         }
       ],
-      "paraIx": 29,
+      "paraIx": 28,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12552,7 +12532,7 @@
           ]
         }
       ],
-      "paraIx": 29,
+      "paraIx": 28,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12596,7 +12576,7 @@
           ]
         }
       ],
-      "paraIx": 30,
+      "paraIx": 29,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12618,7 +12598,7 @@
           ]
         }
       ],
-      "paraIx": 30,
+      "paraIx": 29,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12662,7 +12642,7 @@
           ]
         }
       ],
-      "paraIx": 31,
+      "paraIx": 30,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12720,7 +12700,7 @@
           ]
         }
       ],
-      "paraIx": 31,
+      "paraIx": 30,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12778,7 +12758,7 @@
           ]
         }
       ],
-      "paraIx": 31,
+      "paraIx": 30,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12856,7 +12836,7 @@
           ]
         }
       ],
-      "paraIx": 32,
+      "paraIx": 31,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12924,7 +12904,7 @@
           ]
         }
       ],
-      "paraIx": 33,
+      "paraIx": 32,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -12994,7 +12974,7 @@
           ]
         }
       ],
-      "paraIx": 33,
+      "paraIx": 32,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -13088,7 +13068,7 @@
           ]
         }
       ],
-      "paraIx": 33,
+      "paraIx": 32,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -13250,7 +13230,7 @@
           ]
         }
       ],
-      "paraIx": 34,
+      "paraIx": 33,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -13530,7 +13510,7 @@
           ]
         }
       ],
-      "paraIx": 35,
+      "paraIx": 34,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -13574,7 +13554,7 @@
           ]
         }
       ],
-      "paraIx": 36,
+      "paraIx": 35,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -13668,7 +13648,7 @@
           ]
         }
       ],
-      "paraIx": 36,
+      "paraIx": 35,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -13772,7 +13752,7 @@
           ]
         }
       ],
-      "paraIx": 37,
+      "paraIx": 36,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -13866,7 +13846,7 @@
           ]
         }
       ],
-      "paraIx": 37,
+      "paraIx": 36,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -13995,7 +13975,7 @@
           ]
         }
       ],
-      "paraIx": 37,
+      "paraIx": 36,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -14141,7 +14121,7 @@
           ]
         }
       ],
-      "paraIx": 38,
+      "paraIx": 37,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -14221,7 +14201,7 @@
           ]
         }
       ],
-      "paraIx": 39,
+      "paraIx": 38,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -14457,7 +14437,7 @@
           ]
         }
       ],
-      "paraIx": 39,
+      "paraIx": 38,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -14599,7 +14579,7 @@
           ]
         }
       ],
-      "paraIx": 39,
+      "paraIx": 38,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -14655,7 +14635,7 @@
           ]
         }
       ],
-      "paraIx": 40,
+      "paraIx": 39,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -14761,7 +14741,7 @@
           ]
         }
       ],
-      "paraIx": 40,
+      "paraIx": 39,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -14975,7 +14955,7 @@
           ]
         }
       ],
-      "paraIx": 40,
+      "paraIx": 39,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -15007,7 +14987,7 @@
           "entries": []
         }
       ],
-      "paraIx": 40,
+      "paraIx": 39,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -15053,7 +15033,7 @@
           ]
         }
       ],
-      "paraIx": 40,
+      "paraIx": 39,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -15099,7 +15079,7 @@
           ]
         }
       ],
-      "paraIx": 40,
+      "paraIx": 39,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -15377,7 +15357,7 @@
           "entries": []
         }
       ],
-      "paraIx": 41,
+      "paraIx": 40,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -15467,7 +15447,7 @@
           ]
         }
       ],
-      "paraIx": 42,
+      "paraIx": 41,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -15521,7 +15501,7 @@
           "entries": []
         }
       ],
-      "paraIx": 42,
+      "paraIx": 41,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -15567,7 +15547,7 @@
           ]
         }
       ],
-      "paraIx": 42,
+      "paraIx": 41,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
@@ -15717,7 +15697,7 @@
           ]
         }
       ],
-      "paraIx": 42,
+      "paraIx": 41,
       "isTitleLine": false,
       "isVerse": false,
       "isEmptyLine": false
